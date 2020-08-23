@@ -8,6 +8,8 @@ from sklearn.metrics import classification_report
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import accuracy_score
 
+# VERIFICAR SE EXISTE COMO SETAR O LIMIAR. PROF CITOU EM CLASSE
+
 # Leitura dos dados de entrada.
 data = pd.read_csv("dados_autent_bancaria.txt")
 
